@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Jonathan Hustead" />
+    <meta name="description" content="Jonathan Hustead's Online Portfolio" />
+    <meta
+      name="keywords"
+      content="jonathan hustead,front end engineer,front end developer,ui,ui developer,ui engineer,ui designer,ux developer,ux engineer,web developer,web engineer,webmaster,game designer"
+    />
+
+    <title>Jonathan Hustead's Online Portfolio</title>
+
+    <link rel="icon" type="image/png" href="favicon-96x96.webp" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.webp" />
+    <link rel="manifest" href="site.webmanifest" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+    /></noscript>
+
+    <link
+      rel="preload"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    /></noscript>
+
+    <link
+      rel="preload"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+      href="styles/global.css"
+    />
+    <noscript><link rel="stylesheet" href="styles/global.css" /></noscript>
+
+    <link
+      rel="preload"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+      href="styles/responsive.css"
+    />
+    <noscript><link rel="stylesheet" href="styles/responsive.css" /></noscript>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header id="top">
+      <h1 class="header-title">Jonathan Hustead's Online Portfolio</h1>
+      <nav class="navbar">
+        <a href="#about" title="About">
+          <span class="material-symbols-outlined"> person_search </span>
+          About
+        </a>
+        <a href="#projects" title="Projects">
+          <span class="material-symbols-outlined"> assignment_globe </span>
+          Projects
+        </a>
+        <a href="#experience" title="Experience">
+          <span class="material-symbols-outlined"> work_history </span>
+          Experience
+        </a>
+        <a href="#education" title="Education">
+          <span class="material-symbols-outlined"> school </span>
+          Education
+        </a>
+        <a href="#contact" title="Contact">
+          <span class="material-symbols-outlined"> contact_mail </span>
+          Contact
+        </a>
+      </nav>
+    </header>
+    <main>
+      <div id="about">
+        <h2>
+          <span class="material-symbols-outlined"> person_search </span>
+          About
+        </h2>
+        <div class="card">
+          <h3>
+            I am a front-end focused software engineer who will improve your
+            website by making it look nicer, run faster, and appeal to a much
+            larger audience in a much shorter timeframe than you'd expect.
+          </h3>
+          <div class="content">
+            <div>
+              <img
+                id="about-img"
+                src="images/about.webp"
+                alt="Jonathan Hustead"
+                width="100"
+                height="100"
+              />
+              <ul id="about-links">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/jmhustead"
+                    target="_blank"
+                    title="My LinkedIn Page"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/jmhustead81"
+                    target="_blank"
+                    title="My GitHub Repos"
+                    >GitHub</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="docs/Resume_Jonathan-Hustead_Front-End-Software-Engineer.pdf"
+                    target="_blank"
+                    title="Download My Resume"
+                    >Resume</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <p>
+              I've been creating webpages since Web 1.0 in the late 1990's. In
+              middle school, I taught myself HTML, CSS, and basic JavaScript so
+              I could build websites to advertise my projects. A few years
+              later, I delved deeper into the setup process and learned a bit of
+              Linux so I could setup remote servers and PHP to customize content
+              management systems like Joomla. By the end of high school, my
+              passion for programming, configuring, designing, and maintaining
+              websites set my university path. Formal classes and the emergence
+              of Web 2.0 were vital to my later understanding of usage patterns,
+              accessibility (ADA compliance), and responsive design. Over the
+              past two decades, I've helped dozens of clients create hundreds of
+              e-commerce, statistical, professional, and personal webpages that
+              do everything from create online communities to share vital
+              statistics.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="projects">
+        <h2>
+          <span class="material-symbols-outlined"> assignment_globe </span>
+          Projects
+        </h2>
+        <div class="card">
+          <div id="projects-container">
+            <figure class="projects-item">
+              <a href="javascript:;" title="ADCAdmin">
+                <img src="images/projects/web-adcadmin.webp" alt="ADCAdmin" />
+                <figcaption>ADCAdmin</figcaption>
+              </a>
+            </figure>
+            <figure class="projects-item">
+              <a href="javascript:;" title="SS&amp;C Advent">
+                <img
+                  src="images/projects/web-advent.webp"
+                  alt="SS&amp;C Advent"
+                />
+                <figcaption>SS&amp;C Advent</figcaption>
+              </a>
+            </figure>
+            <figure class="projects-item">
+              <a href="javascript:;" title="Advent Community">
+                <img
+                  src="images/projects/web-adventcommunity.webp"
+                  alt="Advent Community"
+                />
+                <figcaption>Advent Community</figcaption>
+              </a>
+            </figure>
+            <figure class="projects-item">
+              <a href="javascript:;" title="Gate (reskin)">
+                <img
+                  src="images/projects/web-adventgate-reskin.webp"
+                  alt="Gate (reskin)"
+                />
+                <figcaption>Gate (reskin)</figcaption>
+              </a>
+            </figure>
+            <figure class="projects-item">
+              <a href="javascript:;" title="Gate">
+                <img src="images/projects/web-adventgate.webp" alt="Gate" />
+                <figcaption>Gate</figcaption>
+              </a>
+            </figure>
+            <figure class="projects-item">
+              <a href="javascript:;" title="DCAdmin">
+                <img src="images/projects/web-dcadmin.webp" alt="DCAdmin" />
+                <figcaption>DCAdmin</figcaption>
+              </a>
+            </figure>
+            <figure class="projects-item">
+              <a href="javascript:;" title="Optimum HIT Portal">
+                <img
+                  src="images/projects/web-optimumhit-portal.webp"
+                  alt="Optimum HIT Portal"
+                />
+                <figcaption>Optimum HIT Portal</figcaption>
+              </a>
+            </figure>
+            <figure class="projects-item">
+              <a href="javascript:;" title="Optimum HIT">
+                <img
+                  src="images/projects/web-optimumhit.webp"
+                  alt="Optimum HIT"
+                />
+                <figcaption>Optimum HIT</figcaption>
+              </a>
+            </figure>
+            <figure class="projects-item">
+              <a href="javascript:;" title="Portfolio Data Admin">
+                <img
+                  src="images/projects/web-portfoliodata.webp"
+                  alt="Portfolio Data Admin"
+                />
+                <figcaption>Portfolio Data Admin</figcaption>
+              </a>
+            </figure>
+            <figure class="projects-item">
+              <a href="javascript:;" title="Skillmarket Consultants">
+                <img
+                  src="images/projects/web-skillmarket-consultants.webp"
+                  alt="Skillmarket Consultants"
+                />
+                <figcaption>Skillmarket Consultants</figcaption>
+              </a>
+            </figure>
+            <figure class="projects-item">
+              <a href="javascript:;" title="Skillmarket">
+                <img
+                  src="images/projects/web-skillmarket.webp"
+                  alt="Skillmarket"
+                />
+                <figcaption>Skillmarket</figcaption>
+              </a>
+            </figure>
+            <figure class="projects-item">
+              <a href="javascript:;" title="Status Cloud">
+                <img
+                  src="images/projects/web-status-cloud.webp"
+                  alt="Status Cloud"
+                />
+                <figcaption>Status Cloud</figcaption>
+              </a>
+            </figure>
+            <figure class="projects-item">
+              <a href="javascript:;" title="Status Center">
+                <img
+                  src="images/projects/web-statuscenter.webp"
+                  alt="Status Center"
+                />
+                <figcaption>Status Center</figcaption>
+              </a>
+            </figure>
+            <figure class="projects-item">
+              <a href="javascript:;" title="Status Page">
+                <img
+                  src="images/projects/web-statuspage.webp"
+                  alt="Status Page"
+                />
+                <figcaption>Status Page</figcaption>
+              </a>
+            </figure>
+            <figure class="projects-item">
+              <a href="javascript:;" title="Status Page (reskin)">
+                <img
+                  src="images/projects/web-statuspage2.webp"
+                  alt="Status Page (reskin)"
+                />
+                <figcaption>Status Page (reskin)</figcaption>
+              </a>
+            </figure>
+            <figure class="projects-item">
+              <a href="javascript:;" title="UAHN Dashboard">
+                <img src="images/projects/web-uahn.webp" alt="UAHN Dashboard" />
+                <figcaption>UAHN Dashboard</figcaption>
+              </a>
+            </figure>
+            <figure class="projects-item">
+              <a href="javascript:;" title="UCI Dashboard">
+                <img src="images/projects/web-uci.webp" alt="UCI Dashboard" />
+                <figcaption>UCI Dashboard</figcaption>
+              </a>
+            </figure>
+            <figure class="projects-item">
+              <a href="javascript:;" title="WIT Intranet">
+                <img
+                  src="images/projects/web-wit-intranet.webp"
+                  alt="WIT Intranet"
+                />
+                <figcaption>WIT Intranet</figcaption>
+              </a>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div id="experience">
+        <h2>
+          <span class="material-symbols-outlined"> work_history </span>
+          Experience
+        </h2>
+        <div class="card">
+          <div id="experience-container">
+            <div class="experience-item">
+              <h3>Staff Software Engineer</h3>
+              <h4>SS&amp;C Advent / Jacksonville, Florida</h4>
+              <h5>August 2018 - Current</h5>
+              <p>
+                Oversee all UI and UX design elements by working directly with
+                development and design teams. Set page templates and design
+                patterns for team. Create full front-end layouts and
+                architecture using .NET, .NET Core, MVC, AngularJS, jQuery, and
+                KendoUI. Prototype functionality with stakeholders before
+                connecting to APIs to pull real data.
+              </p>
+            </div>
+            <div class="experience-item">
+              <h3>Web Marketing Manager</h3>
+              <h4>Optimum Healthcare IT (HIT) / Jacksonville, Florida</h4>
+              <h5>June 2016 - June 2018</h5>
+              <p>
+                Paired with the Creative Director and worked on internal and
+                external sites using jQuery, HTML, CSS, and PHP with Wordpress.
+              </p>
+            </div>
+            <div class="experience-item">
+              <h3>Senior UI Engineer</h3>
+              <h4>Clearsense / Jacksonville, Florida</h4>
+              <h5>June 2015 - June 2016</h5>
+              <p>
+                Helped a startup team by establishing and making UI and UX
+                elements to show to stakeholders using AngularJS, MVC, and
+                jQuery.
+              </p>
+            </div>
+            <div class="experience-item">
+              <h3>Lead Front-End Developer</h3>
+              <h4>Fanatics / Jacksonville, Florida</h4>
+              <h5>May 2010 - June 2015</h5>
+              <p>
+                Worked directly with IT, design, SEO, and marketing teams to
+                establish design and layout needs. Created prototype pages and
+                styles to establish brands across hundreds of sports merchandise
+                e-commerce stores.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="education">
+        <h2>
+          <span class="material-symbols-outlined"> school </span>
+          Education
+        </h2>
+        <div class="card">
+          <div id="education-container">
+            <div class="education-item">
+              <h3>Master of Science</h3>
+              <h4>University of Central Florida / Orlando, Florida</h4>
+              <h5>2007</h5>
+              <p>Management Information Systems (MIS)</p>
+            </div>
+            <div class="education-item">
+              <h3>Bachelor of Science</h3>
+              <h4>University of Central Florida / Orlando, Florida</h4>
+              <h5>2005</h5>
+              <p>Information Technology (IT)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact">
+        <h2>
+          <span class="material-symbols-outlined"> contact_mail </span>
+          Contact
+        </h2>
+        <div class="card">
+          <div id="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input
+                type="hidden"
+                name="access_key"
+                value="a78a137a-df4b-4b03-8e67-4c48ba2c4d5e"
+              />
+              <div class="contact-row">
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" name="name" required />
+              </div>
+              <div class="contact-row">
+                <label for="contact-email">Your Email Address</label>
+                <input type="email" id="contact-email" name="email" required />
+              </div>
+              <div class="contact-row">
+                <label for="contact-message">Message For Me</label>
+                <textarea
+                  name="message"
+                  id="contact-message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <div class="contact-row">
+                <button type="submit">Send Message</button>
+                <button type="reset">Start Over</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        Copyright &copy; 2022-<span id="footer-current-year">Present</span>
+        Jonathan Hustead.
+      </div>
+    </footer>
+    <a
+      id="download-resume"
+      target="_blank"
+      href="docs/Resume_Jonathan-Hustead_Front-End-Software-Engineer.pdf"
+      title="Download My Resume"
+    >
+      <span class="material-symbols-outlined"> file_save </span>
+    </a>
+    <a id="back-to-top" href="#top" title="Back to top" style="display: none">
+      <span class="material-symbols-outlined"> vertical_align_top </span>
+    </a>
+    <div id="lightbox-bg" style="display: none"></div>
+    <div id="lightbox" style="display: none">
+      <figure>
+        <img id="lightbox-img" src="" alt="" />
+        <figcaption id="lightbox-caption"></figcaption>
+      </figure>
+    </div>
+    <script src="scripts/global.js"></script>
+  </body>
+</html>
